@@ -242,6 +242,7 @@ class BlockParagraphCTAsForm extends Component {
               icon={<TrashIcon />} label="delete slide"
               onClick={this.deleteSlideClick.bind(this, activeSlideIndex)}
             />
+            <p>Hello World</p>
           </ResponsiveBox>
         </Box>
         <FormFields>
